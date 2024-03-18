@@ -20,16 +20,25 @@ body {
 
 main {
     position: relative;
-    height: 50vh;
+    height: 120vh;
 }
 
 section#telefone {
     position: absolute;
-    top: 120%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     
     height: 600px;
     width: 350px;
     background: url('../imagens/frame-iphone-2.png') no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    border-radius: 25px;
+    top: 18px;
+    left: 55px;
+    width: 258px;
+    height: 559px;
 }
